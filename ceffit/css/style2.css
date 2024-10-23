@@ -1,0 +1,29 @@
+body {
+    font-size: 16px; /* Tamaño base de fuente */
+}
+
+.container {
+    width: 80%; /* 80% del ancho del padre */
+    max-width: 1200px; /* Máximo ancho absoluto */
+    margin: 0 auto; /* Centrado */
+}
+
+a {
+    font-size: 2.5rem; /* 2.5 veces el tamaño de fuente raíz */
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.responsive-text {
+    font-size: calc(16px + 1vw); /* Tamaño base + 1% del ancho de la ventana */
+}
+
+.full-height {
+    height: 100vh; /* Altura completa de la ventana */
+}
+
+.padding-example {
+    padding: 1em 2em; /* 1em arriba/abajo, 2em izquierda/derecha */
+}
